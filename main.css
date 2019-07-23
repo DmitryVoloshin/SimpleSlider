@@ -1,0 +1,9 @@
+#slider{
+   position: relative;
+   overflow: hidden;
+   width: 600px;
+   height: 320px;
+   margin: 20px auto;
+   padding: 0;
+   list-style: none;
+}

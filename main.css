@@ -29,3 +29,6 @@
 .button-arrow_next{
    right: 0;
 }
+.disabled{
+   color: pink;
+}

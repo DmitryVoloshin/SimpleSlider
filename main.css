@@ -1,0 +1,38 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #222;
+}
+
+.simple-slider_wrap {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 7px;
+}
+
+.simple-slider_window {
+   width: 800px;
+   height: 400px;
+   border-radius: 7px;
+   background: url('./img/1.jpg');
+   animation: slide 20s infinite;
+   background-size: cover;
+}
+
+@keyframes slide {
+   34% {
+      background: url('./img/2.jpg')
+   }
+
+   67% {
+      background: url('./img/3.jpg')
+   }
+
+   100% {
+      background: url('./img/1.jpg')
+   }
+
+
+}
